@@ -10,11 +10,11 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
-export function LoginForm() {
+export default function LoginForm() {
   return (
     <Card className="w-full max-w-sm">
       <CardHeader>
-        <CardTitle className="text-2xl">Login</CardTitle>
+        <CardTitle className="text-2xl">Login (option A)</CardTitle>
         <CardDescription>
           Enter your email below to login to your account.
         </CardDescription>

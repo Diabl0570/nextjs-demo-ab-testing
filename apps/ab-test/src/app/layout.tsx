@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn(
-          "min-h-screen bg-background font-sans antialiased",
+          "min-h-screen bg-background font-sans antialiased mx-auto container max-w-max my-auto max-h-full flex flex-col justify-center items-center",
           inter.className
         )}>{children}</body>
     </html>
